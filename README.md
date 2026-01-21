@@ -18,7 +18,9 @@ do básico ao avançado.
 - 1.DesvendeOsFundamentos
   - FundamentosDoCSharp
     - Calculator → Primeiro projeto em C# (aplicação de console)
-    - Stopwatch (em breve)
+    - Stopwatch → Contagem de minutos ou segundos com input do usuário (aplicação de console)
+    - TextEditor (em breve)
+    - HtmlEditor (em breve)
   - FundamentosDaOrientacaoObjetos (em breve)
 - 2.ProfundidadeNosDados (em breve)
 - 3.DomineAspNetBlazor (em breve)
