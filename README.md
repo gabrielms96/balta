@@ -20,7 +20,7 @@ do básico ao avançado.
     - Calculator → Primeiro projeto em C# (aplicação de console)
     - Stopwatch → Contagem de minutos ou segundos com input do usuário (aplicação de console)
     - TextEditor → Criação e abertura de arquivo .txt (aplicação de console)
-    - HtmlEditor (em execução)
+    - HtmlEditor → Exemplo de regex editando a tag <strong></strong> para azul/"negrito" (aplicação de console)
   - FundamentosDaOrientacaoObjetos (em breve)
 - 2.ProfundidadeNosDados (em breve)
 - 3.DomineAspNetBlazor (em breve)
