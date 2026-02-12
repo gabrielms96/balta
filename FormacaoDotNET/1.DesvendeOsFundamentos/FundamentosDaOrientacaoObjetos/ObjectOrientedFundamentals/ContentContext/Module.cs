@@ -1,6 +1,6 @@
 ﻿namespace ObjectOrientedFundamentals.ContentContext
 {
-    public class Module
+    public class Module : Base
     {
         public Module()
         {

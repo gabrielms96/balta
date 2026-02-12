@@ -29,7 +29,7 @@ public class Program
 
         var careers = new List<Career>();
         var career = new Career("Especialista .NET", "especialista-dotnet-career");
-        var careerItem2 = new CareerItem(2, "OOP", "", courseObjectOriented);
+        var careerItem2 = new CareerItem(2, "OOP", "", null);
         var careerItem = new CareerItem(1, "Start here", "", courseCSharp);
         var careerItem3 = new CareerItem(3, "ASP.NET", "", courseAspNet);
         career.Items.Add(careerItem2);
@@ -42,7 +42,14 @@ public class Program
             Console.WriteLine($"Career: {c.Title}");
             // Order the career items by their 'Order' property before displaying them
             foreach (var item in c.Items.OrderBy(x => x.Order))
-                Console.WriteLine($" - {item.Order}: {item.Title} / {item.Course.Title} - {item.Course.Level}");
+            {
+                Console.WriteLine($" - {item.Order}: {item.Title} / {item.Course?.Title} - {item.Course?.Level}");
+
+                foreach (var notification in item.Notifications)
+                {
+                    Console.Write($"{notification.Property} - {notification.Message}");
+                }
+            }
 
         }
     }

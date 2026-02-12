@@ -1,11 +1,13 @@
-﻿namespace ObjectOrientedFundamentals.ContentContext
+﻿using ObjectOrientedFundamentals.NotificationContext;
+
+namespace ObjectOrientedFundamentals.ContentContext
 {
-    public class CareerItem
+    public class CareerItem : Base
     {
         public CareerItem(int order, string title, string description, Course course)
         {
             if (course == null)
-                throw new System.Exception("Course cannot be null");
+                AddNotification(new Notification("Course", "Invalid course."));
             Order = order;
             Title = title;
             Description = description;

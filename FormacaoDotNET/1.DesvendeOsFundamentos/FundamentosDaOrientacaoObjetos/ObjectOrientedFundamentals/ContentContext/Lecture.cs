@@ -2,7 +2,7 @@
 
 namespace ObjectOrientedFundamentals.ContentContext
 {
-    public class Lecture
+    public class Lecture : Base
     {
         public Lecture()
         {
