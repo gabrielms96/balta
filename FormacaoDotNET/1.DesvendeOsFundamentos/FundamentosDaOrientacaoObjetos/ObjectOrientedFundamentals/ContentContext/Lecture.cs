@@ -1,4 +1,5 @@
 ﻿using ObjectOrientedFundamentals.ContentContext.Enums;
+using ObjectOrientedFundamentals.SharedContext;
 
 namespace ObjectOrientedFundamentals.ContentContext
 {

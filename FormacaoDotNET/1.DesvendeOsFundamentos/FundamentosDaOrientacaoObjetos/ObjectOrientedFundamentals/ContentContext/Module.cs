@@ -1,4 +1,6 @@
-﻿namespace ObjectOrientedFundamentals.ContentContext
+﻿using ObjectOrientedFundamentals.SharedContext;
+
+namespace ObjectOrientedFundamentals.ContentContext
 {
     public class Module : Base
     {

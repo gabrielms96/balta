@@ -1,5 +1,6 @@
 ﻿using ObjectOrientedFundamentals.ContentContext;
 using ObjectOrientedFundamentals.ContentContext.Enums;
+using ObjectOrientedFundamentals.SubscriptionContext;
 
 public class Program
 {
@@ -51,6 +52,16 @@ public class Program
                 }
             }
 
+        }
+
+        var pagarMe = new PagarMeSubscription();
+        var student = new Student();
+        student.CreateSubscription(pagarMe);
+        Console.WriteLine($"A new student has purchased Premium.");
+        student.CreateSubscription(pagarMe);
+        foreach (var notification in student.Notifications)
+        {
+            Console.WriteLine($" - {notification.Message}");
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using ObjectOrientedFundamentals.NotificationContext;
 
-namespace ObjectOrientedFundamentals.ContentContext
+namespace ObjectOrientedFundamentals.SharedContext
 {
     public abstract class Base : Notifiable
     {
