@@ -1,0 +1,15 @@
+﻿namespace ObjectOrientedFundamentals.ContentContext
+{
+    public class Module
+    {
+        public Module()
+        {
+            Lectures = new List<Lecture>();
+        }
+        public int Order { get; set; }
+        public string Title { get; set; }
+        public IList<Lecture> Lectures { get; set; }
+        public int DurationInMinutes { get; set; }
+
+    }
+}
