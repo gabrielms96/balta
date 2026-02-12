@@ -21,8 +21,8 @@ do básico ao avançado.
     - Stopwatch → Contagem de minutos ou segundos com input do usuário (aplicação de console)
     - TextEditor → Criação e abertura de arquivo .txt (aplicação de console)
     - HtmlEditor → Exemplo de regex editando a tag <strong></strong> para azul/"negrito" (aplicação de console)
-  - FundamentosDaOrientacaoObjetos (em breve)
-- 2.ProfundidadeNosDados (em breve)
+  - FundamentosDaOrientacaoObjetos → Projeto com os fundamentos POO(Programação Orientada a Objetos) ObjectOrientedFundamentals (aplicação de console)
+- 2.ProfundidadeNosDados
 - 3.DomineAspNetBlazor (em breve)
 - 4.JornadaDevOps (em breve)
 - 5.ChegandoNoNivelAvançado (em breve)
