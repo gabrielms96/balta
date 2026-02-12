@@ -2,7 +2,8 @@
 {
     public class Career : Content
     {
-        public Career()
+        public Career(string title, string url)
+            : base(title, url)
         {
             Items = new List<CareerItem>();
         }

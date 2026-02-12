@@ -5,9 +5,11 @@ namespace ObjectOrientedFundamentals.ContentContext
     public class Course : Content
     {
         // Constructor to initialize the Modules list
-        public Course()
+        public Course(string title, string url, EContentLevel eContentLevel)
+            : base(title, url)
         {
             Modules = new List<Module>();
+            Level = eContentLevel;
         }
 
         public string Tag { get; set; }
