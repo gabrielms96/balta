@@ -1,7 +1,5 @@
 📚 Balta - Estudos em .NET & C#
 
-Repositório de estudos criado com o objetivo de manter a continuidade dos meus estudos focados em .NET e C# utilizando a metodologia da Balta.IO como base.
-
 Possuo 6 anos de experiência profissional como desenvolvedor C#, atuando principalmente em backend, e busco alavancar minha carreira rumo ao nível Sênior, aprofundando fundamentos, boas práticas e decisões arquiteturais.
 
 🎯 Objetivo do Repositório
