@@ -21,6 +21,13 @@ do básico ao avançado.
     - HtmlEditor → Exemplo de regex editando a tag <strong></strong> para azul/"negrito" (aplicação de console)
   - FundamentosDaOrientacaoObjetos → Projeto com os fundamentos POO(Programação Orientada a Objetos) ObjectOrientedFundamentals (aplicação de console)
 - 2.ProfundidadeNosDados
+    - Fundamentos do SQL Server → Anotações básicas sobre SQL
+    - Acesso à dados com .NET, C#, Dapper e SQL Server
+        - AdoExample → Exemplo básico de select com ADO.NET
+        - DapperExample (em andamento)
+    - Postgres para devs .NET (em breve)
+    - Dominando Postgres com Entity Framework! (em breve)
+    - Dominando Repository Pattern (em breve)
 - 3.DomineAspNetBlazor (em breve)
 - 4.JornadaDevOps (em breve)
 - 5.ChegandoNoNivelAvançado (em breve)
